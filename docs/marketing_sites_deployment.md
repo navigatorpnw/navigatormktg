@@ -11,11 +11,11 @@ Three marketing websites are built and deployed using the same core stack:
 
 | Site | Domain | Cloudflare Project | Source Location |
 |------|--------|--------------------|-----------------|
-| Fuel Docks | fueldocks.app | `fueldocks-marketing` | `Fuel Docks\fueldocks-marketing` |
-| Navigator Marketing | navigatormktg.com | `navigatormktg` | `Navigator\navigatormktg` |
+| Fuel Docks | fueldocks.app | `fueldocks-marketing` | `fueldocks-marketing` |
+| Navigator Marketing | navigatormktg.com | `navigatormktg` | `navigatormktg` |
 | Westmark Marina | westmarkmarina.com | WordPress.com (Personal plan) | Hosted on WordPress.com — no local source |
 
-All source paths are relative to `C:\Users\kencl\OneDrive\Navigator\`.
+All source paths are relative to `C:\Users\kencl\OneDrive\Claude\`.
 
 ---
 
@@ -36,7 +36,7 @@ All source paths are relative to `C:\Users\kencl\OneDrive\Navigator\`.
 No wrangler config file — uses direct `wrangler pages deploy`.
 
 ```bash
-cd "C:\Users\kencl\OneDrive\Navigator\Fuel Docks\fueldocks-marketing"
+cd "C:\Users\kencl\OneDrive\Claude\fueldocks-marketing"
 npm run build
 npx wrangler pages deploy dist --project-name=fueldocks-marketing
 ```
@@ -48,7 +48,7 @@ Dev server: `npm run dev` (Vite on port 5173)
 Has `wrangler.jsonc` config and `@cloudflare/vite-plugin`. Uses `wrangler deploy`.
 
 ```bash
-cd "C:\Users\kencl\OneDrive\Navigator\navigatormktg"
+cd "C:\Users\kencl\OneDrive\navigatormktg"
 npm run deploy    # runs: npm run build && wrangler deploy
 ```
 
