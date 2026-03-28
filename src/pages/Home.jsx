@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Navigator YouTube Channel</h3>
               <p className="text-gray-600 mb-6">
-                4K flyovers of marinas across the Pacific Northwest
+                4K flyovers of marinas<br />across the Pacific Northwest
               </p>
               <a
                 href="https://www.youtube.com/@navigatorpnw"
