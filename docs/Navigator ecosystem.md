@@ -1,0 +1,14 @@
+“Fuel Docks” is a marine fueling mobile app (iOS and Android) for boaters – published by Navigator PNW LLC. The target audience are boaters.  It helps users find fuel docks with up-to-date gas and diesel prices, view detailed dock pages with hours, amenities, and contact info, and discover nearby docks based on their current location. The app features an interactive map with dock pins and real-time pricing, route planning with fuel stop suggestions, and GPX export for chartplotters. It works offline for use in areas without cell service, and includes community-driven price reporting to help keep data accurate. Built with a clean, modern interface focused on fast loading and ease of use.  It is available to the public in US and Canada for free.  Version 2 was launched to the public on March 21, 2026.
+
+- Navigator PNW aims to collect prices for 99% of marinas listed in the app – providing a service to boaters.
+- Many marinas do not see ROI in publishing their prices to an app, but boaters find great value.  That said, boaters are unlikely to be reliable sources to keep price info up to date (user generated content), so while the app has the ability to collect error reports from boaters – we do not expect that to maintain the accuracy of pricing info.
+- Fuel Docks has a backend end system to scrape prices from the websites of marina that publish their prices; and email marinas who will communicate by email.
+
+“FD Dialer” is a non-public webapp (could also be published to mobile app) used by Navigator PNW employees to call on marinas where prices cannot be web-scraped or communicate by email to update prices.  The current user base is one person = Ken Clements.
+
+“My Fuel Docks” (MFD) is a not yet launched service with a target audience of marine fuel docks.  The service will allow the marina to place a widget on their website showing the current prices for fuel they sell.  The marina can update prices shown on the widget on their website using MFD’s web portal, iOS app, Android app, email or eventually by text or verbal phone call.  My Fuel Docks will store fuel prices in the same Xano table that Fuel Docks uses.  If a marina is using MFD widgets on their site, then it is not necessary for Fuel Docks to source price updates; the marina will do that themselves.
+
+- So the Fuel Docks system knows that method=MFD means the workflow relies on the marina
+- The Fuel Docks workflow to email marinas from ken@navigatorpnw.com for price updates needs to be separate from the prices@myfueldock.com workflow to interact with marinas using MFD.
+
+- Navigator PNW also operates a YouTube channel (https://www.youtube.com/channel/UCme2RL5kTbsraR0Vf2YnbBQ) with flyover videos and on-water-approach videos of marinas around the Puget Sound.  This service is unlikely to scale beyond the Puget Sound, but the Fuel Docks / FD Dialer / My Fuel Docks ecosystem is planned to scale beyond the Puget Sound and eventually work across the US and Canada.
