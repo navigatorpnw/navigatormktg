@@ -19,7 +19,7 @@ export default function VersionStats() {
   return (
     <div style={{ fontFamily: 'monospace', padding: '2rem', maxWidth: '600px', margin: '0 auto' }}>
       <p style={{ fontSize: '0.8rem', color: '#888', marginBottom: '2rem' }}>
-        All-time installs by version
+        March 31, 2026 to {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
       </p>
 
       {loading && <p>Loading...</p>}
