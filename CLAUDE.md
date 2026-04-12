@@ -34,7 +34,7 @@ All projects live under `C:\Users\kencl\OneDrive\Claude\`:
 | `MyFuelDock` | My Fuel Dock — marina-facing B2B portal (myfueldock.com) |
 | `myfueldock-app` | My Fuel Dock mobile app (React Native/Expo, iOS/Android) |
 | `myfueldock-portal` | My Fuel Dock marina web portal (React SPA) |
-| `myfueldock-widgets` | Embeddable price board widgets (hosted at widgets.fueldocks.app) |
+| `myfueldock-widgets` | Embeddable price boards (hosted at mfdboard.com) — repo name is legacy; the public-facing term is "price board" |
 | `icon-mockup` | App icon mockups |
 | `docs` | Shared documentation (also committed to this repo under `docs/`) |
 
