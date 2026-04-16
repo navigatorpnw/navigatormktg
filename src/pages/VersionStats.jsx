@@ -14,8 +14,6 @@ export default function VersionStats() {
       .catch(() => { setError('Failed to load stats.'); setLoading(false) })
   }, [])
 
-  const total = data?.versions?.reduce((sum, v) => sum + v.count, 0) ?? 0
-
   return (
     <div style={{ fontFamily: 'monospace', padding: '2rem', maxWidth: '600px', margin: '0 auto' }}>
       <p style={{ fontSize: '0.8rem', color: '#888', marginBottom: '2rem' }}>
@@ -45,13 +43,6 @@ export default function VersionStats() {
               </tr>
             ))}
           </tbody>
-          <tfoot>
-            <tr style={{ borderTop: '2px solid #333' }}>
-              <td style={{ paddingTop: '0.5rem', fontWeight: 'bold' }}>Total</td>
-              <td style={{ paddingTop: '0.5rem', fontWeight: 'bold' }}>{total}</td>
-              <td colSpan={2} />
-            </tr>
-          </tfoot>
         </table>
       )}
 
