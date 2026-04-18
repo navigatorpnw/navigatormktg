@@ -70,8 +70,8 @@ Three interconnected products serving the marine fueling space:
 See `docs/` folder:
 
 - `Navigator ecosystem.md` — Overview of all three products and how they connect
-- `fuel_docks_system_design_v4_38.md` — Complete technical reference for Fuel Docks
-- `my_fuel_dock_system_design_v1.19.md` — MFD architecture, database, API, and roadmap
+- `fuel_docks_system_design.md` — Complete technical reference for Fuel Docks
+- `my_fuel_dock_system_design_v1.111.md` — MFD architecture, database, API, and roadmap
 - `marketing_sites_deployment.md` — Build and deploy guide for all marketing sites
 - `fuel_docks_risk_register.md` — Security and operational risk tracking
 - `navigator_brand_guidelines_v1.1.pdf` — Visual identity and brand voice guidelines
